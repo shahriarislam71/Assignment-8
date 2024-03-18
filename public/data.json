@@ -1,0 +1,30 @@
+[
+    {
+        "image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/2.png",
+        "Author_Image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/boy1.png",
+        "Name" : "Mr Raju",
+        "Published_Date" : "14 May",
+        "description" : "Journey of learning HTML & CSS"
+    },
+    {
+        "image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/1.jpg",
+        "Author_Image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/boy2.png",
+        "Name" : "Mr Shahriar",
+        "Published_Date" : "14 May",
+        "description" : "Journey of learning Javascript"
+    },
+    {
+        "image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/3.png",
+        "Author_Image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/girl1.png",
+        "Name" : "Mst Olivia",
+        "Published_Date" : "30 April",
+        "description" : "Journey of learning React"
+    },
+    {
+        "image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/4.png",
+        "Author_Image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/girl2.png",
+        "Name" : "Mst Harper",
+        "Published_Date" : "1 March",
+        "description" : "Journey of becoming a self web developer"
+    }
+]
