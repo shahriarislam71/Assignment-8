@@ -5,7 +5,7 @@ const Navbar = () => {
         <>
             <div className='flex items-center justify-between'>
                 <div>
-                    <h1 className=' '>Knowledge Cafe</h1>
+                    <h1 className='md:font-bold md:text-2xl'>Knowledge Cafe</h1>
                 </div>
                 <div>
                     <img src="../../../public/images/profile.png" alt="" />
