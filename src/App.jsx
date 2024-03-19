@@ -45,14 +45,14 @@ function App() {
     <div className="container">
       <Navbar></Navbar>
       <div className='grid sm:grid-cols-1 md:grid-cols-3 gap-4 mt-5'>
-        <div className='sm:col-span-1  md:col-span-2 border'>
+        <div className='sm:col-span-1  md:col-span-2'>
           <Blogs findTitle = {findTitle} findTime = {findTime}></Blogs>
         </div>
         <div className='flex flex-col'>
-          <div className='border'>
+          <div>
             <ReadingTime time = {time}></ReadingTime>
           </div>
-          <div className='border'>
+          <div>
             <BlogName title = {title}></BlogName>
           </div>
         </div>

@@ -10,9 +10,9 @@ const BlogElement = (props) => {
                 <img className='w-full sm:h-52 md:h-80 rounded-lg' src={image} alt="" />
                 <div className='mt-5 flex items-center justify-between'>
                     <div className='flex items-center gap-4 mb-5'>
-                        <img className='w-14 h-14 rounded-full' src={Author_Image} alt="" />
+                        <img className='w-14 h-14 rounded-full ' src={Author_Image} alt="" />
                         <div>
-                            <h1 className='md:font-bold'>{Name}</h1>
+                            <h1 className='md:font-bold  md:text-2xl'>{Name}</h1>
                             <p>{Published_Date} (4 days ago)</p>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ const BlogElement = (props) => {
                         </svg></span>
                     </div>
                 </div>
-                <h1 className='mt-3 mb-3 md:font-bold'>{title}</h1>
+                <h1 className='mt-3 mb-3 md:font-bold  md:text-xl'>{title}</h1>
                 <div className='md:flex md:gap-5'>
                     <h1>#Beginners</h1>
                     <p>#Programming</p>

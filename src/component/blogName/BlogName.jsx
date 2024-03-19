@@ -5,14 +5,16 @@ import BlogNames from '../BlogNames/BlogNames';
 const BlogName = ({title}) => {
     // console.log(props)
     const [Title,settitle] = useState([])
-    // console.log(Title)
+    const [titleLength, settitlelength] = useState(0)
+    // console.log(titleLength)
     useEffect(()=>{
         const getTitle = JSON.parse(localStorage.getItem('Title'))
         getTitle && settitle(getTitle)
+        getTitle && settitlelength(getTitle.length)
     },[title])
     return (
-        <div>
-            <h1 className='p-2 bg-slate-100 rounded'>Bookmarked Blogs : 8</h1>
+        <div className='p-3 bg-slate-100 rounded'>
+            <h1 className='md:font-bold md:text-2xl text-center'>Bookmarked Blogs : {titleLength}</h1>
             {
                 Title.map((des,index) => <BlogNames key = {index} des = {des}></BlogNames>)
             }
