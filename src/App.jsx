@@ -18,10 +18,10 @@ function App() {
         </div>
         <div className='flex flex-col'>
           <div className='border'>
-            <BlogName></BlogName>
+            <ReadingTime></ReadingTime>
           </div>
           <div className='border'>
-            <ReadingTime></ReadingTime>
+            <BlogName></BlogName>
           </div>
         </div>
       </div>
