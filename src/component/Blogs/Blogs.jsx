@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import BlogElement from '../blogElement/BlogElement';
 
-const Blogs = () => {
+const Blogs = ({findTime}) => {
+    // console.log(props)
     const [blogData,setBlogData] = useState([])
     console.log(blogData)
     useState(()=>{
@@ -12,7 +13,7 @@ const Blogs = () => {
     return (
         <div>
            {
-            blogData.map(data => <BlogElement key = {data.id} blogData = {data}></BlogElement>)
+            blogData.map(data => <BlogElement findTime = {findTime} key = {data.id} blogData = {data}></BlogElement>)
            }
         </div>
     );
