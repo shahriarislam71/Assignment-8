@@ -1,30 +1,38 @@
 [
     {
-        "image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/2.png",
-        "Author_Image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/boy1.png",
+        "id" : 1,
+        "image" : "https://img.freepik.com/premium-photo/young-african-american-it-developer-concentrating-monitor-screen-laptop-with-codding-program-data-application-website-concept-creating-innovative-html-updated-version-tastemaker_31965-243514.jpg?w=996",
+        "Author_Image" : "https://img.freepik.com/premium-photo/full-length-portrait-adult-man-30s-businesslike-suit-posing-with-hands-crossed-isolated-white_171337-27768.jpg?w=360",
         "Name" : "Mr Raju",
         "Published_Date" : "14 May",
-        "description" : "Journey of learning HTML & CSS"
+        "description" : "Journey of learning HTML & CSS",
+        "time" : 5
     },
     {
-        "image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/1.jpg",
-        "Author_Image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/boy2.png",
+        "id" : 2,
+        "image" : "https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept_335657-2412.jpg?t=st=1710757394~exp=1710760994~hmac=b55d16439cfefd3f81640951e81069d964421bf50ffeb136a01ebaa7b1fb57e8&w=996",
+        "Author_Image" : "https://img.freepik.com/free-photo/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes_176532-10257.jpg?t=st=1710770367~exp=1710773967~hmac=a49d37ef7ce9a561c1194718f3c39ae2307d040862485eb6e3cd299743907707&w=996",
         "Name" : "Mr Shahriar",
         "Published_Date" : "14 May",
-        "description" : "Journey of learning Javascript"
+        "description" : "Journey of learning Javascript",
+        "time" : 10
     },
     {
-        "image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/3.png",
-        "Author_Image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/girl1.png",
+        "id" : 3,
+        "image" : "https://img.freepik.com/free-vector/atom-science-education-icon-vector-neon-digital-graphic_53876-114080.jpg?w=740&t=st=1710757781~exp=1710758381~hmac=bb84c325f6ba091af19245db7a9657f3e38cea9c72b41400f490e8cd5f7ff790",
+        "Author_Image" : "https://img.freepik.com/premium-photo/ambition-gets-you-far-i-can-testify-that-portrait-confident-mature-businessman-standing-office-with-his-colleagues-background_590464-47752.jpg?w=740",
         "Name" : "Mst Olivia",
         "Published_Date" : "30 April",
-        "description" : "Journey of learning React"
+        "description" : "Journey of learning React",
+        "time" : 15
     },
     {
-        "image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/4.png",
-        "Author_Image" : "file:///C:/projects/Mylostone-8/Module-52/Assignment-8/public/images/girl2.png",
+        "id" : 4,
+        "image" : "https://img.freepik.com/free-vector/coding-concept-illustration_114360-1155.jpg?t=st=1710757911~exp=1710761511~hmac=5e8468bea2fbbadf02e0512a51ce034359648690fa620002db494fab1a793501&w=740",
+        "Author_Image" : "https://img.freepik.com/premium-photo/portrait-smile-man-with-positive-confidence-carefree-against-grey-studio-background-face-male-person-human-with-cheerful-attitude-freedom-model-with-joy-canada-relax_590464-177008.jpg?w=740",
         "Name" : "Mst Harper",
         "Published_Date" : "1 March",
-        "description" : "Journey of becoming a self web developer"
+        "description" : "Journey of becoming a self web developer",
+        "time" : 20
     }
 ]
