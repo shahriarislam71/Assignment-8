@@ -8,15 +8,19 @@ import ReadingTime from './component/ReadingTime/ReadingTime'
 import Blogs from './component/Blogs/Blogs'
 
 function App() {
+  // using useState for storing the time 
+  const [time,setTime] = useState(0)
   const findTime = (time) =>{
     // console.log(time)
     const getTime = (localStorage.getItem('Time'))
     if(getTime){
       const totalTime = parseInt(getTime) + parseInt(time)
       localStorage.setItem('Time',totalTime)
+      setTime(totalTime)
     }
     else{
       localStorage.setItem('Time',time)
+      setTime(time)
     }
   }
   return (
@@ -28,7 +32,7 @@ function App() {
         </div>
         <div className='flex flex-col'>
           <div className='border'>
-            <ReadingTime></ReadingTime>
+            <ReadingTime time = {time}></ReadingTime>
           </div>
           <div className='border'>
             <BlogName></BlogName>

@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import BlogElement from '../blogElement/BlogElement';
 
 const Blogs = ({findTime}) => {
     // console.log(props)
     const [blogData,setBlogData] = useState([])
     console.log(blogData)
-    useState(()=>{
+    useEffect(()=>{
         fetch('data.json')
         .then(res => res.json())
         .then(data => setBlogData(data))
