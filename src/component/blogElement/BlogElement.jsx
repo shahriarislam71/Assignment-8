@@ -3,7 +3,7 @@ import React from 'react';
 const BlogElement = (props) => {
     // console.log(props)
     const { image, Published_Date, title, Author_Image, Name, time } = props.blogData
-    const {findTime} = props
+    const {findTime,findTitle} = props
     return (
         <div>
             <div>
@@ -28,7 +28,7 @@ const BlogElement = (props) => {
                     <h1>#Beginners</h1>
                     <p>#Programming</p>
                 </div>
-                <span className='mb-5 underline underline-offset-4 text-blue-700 cursor-pointer'>Mark as read</span>
+                <span onClick={()=>findTitle(title)} className='mb-5 underline underline-offset-4 text-blue-700 cursor-pointer'>Mark as read</span>
                 <hr className='mb-5 mt-5' />
             </div>
         </div>

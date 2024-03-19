@@ -10,6 +10,8 @@ import Blogs from './component/Blogs/Blogs'
 function App() {
   // using useState for storing the time 
   const [time,setTime] = useState(0)
+  // useState for storing the title
+  const [title,setTitle] = useState([])
   const findTime = (time) =>{
     // console.log(time)
     const getTime = (localStorage.getItem('Time'))
@@ -23,19 +25,35 @@ function App() {
       setTime(time)
     }
   }
+  // function for finding the title 
+  const findTitle = (title) =>{
+      const getTitle = JSON.parse(localStorage.getItem('Title'))
+      if (getTitle){
+        localStorage.setItem(
+          'Title',JSON.stringify([...getTitle,title])
+        )
+        setTitle([...getTitle,title])
+      }
+      else{
+        localStorage.setItem(
+          'Title',JSON.stringify([title])
+        )
+        setTitle(title)
+      }
+  }
   return (
     <div className="container">
       <Navbar></Navbar>
       <div className='grid sm:grid-cols-1 md:grid-cols-3 gap-4 mt-5'>
         <div className='sm:col-span-1  md:col-span-2 border'>
-          <Blogs findTime = {findTime}></Blogs>
+          <Blogs findTitle = {findTitle} findTime = {findTime}></Blogs>
         </div>
         <div className='flex flex-col'>
           <div className='border'>
             <ReadingTime time = {time}></ReadingTime>
           </div>
           <div className='border'>
-            <BlogName></BlogName>
+            <BlogName title = {title}></BlogName>
           </div>
         </div>
       </div>
