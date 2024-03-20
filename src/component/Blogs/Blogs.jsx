@@ -13,7 +13,7 @@ const Blogs = ({findTime,findTitle}) => {
     return (
         <div>
            {
-            blogData.map(data => <BlogElement findTitle = {findTitle} findTime = {findTime} key = {data.id} blogData = {data}></BlogElement>)
+            blogData.map(data => <BlogElement  findTitle = {findTitle} findTime = {findTime} key = {data.id} blogData = {data}></BlogElement>)
            }
         </div>
     );
