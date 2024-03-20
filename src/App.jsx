@@ -8,6 +8,7 @@ import ReadingTime from './component/ReadingTime/ReadingTime'
 import Blogs from './component/Blogs/Blogs'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import BlogComponent from './component/BlogComponent/BlogComponent'
 
 function App() {
   // using useState for storing the time 
@@ -67,6 +68,7 @@ function App() {
           <ToastContainer />
         </div>
       </div>
+      <BlogComponent></BlogComponent>
     </div>
   )
 }
